@@ -1,10 +1,13 @@
-import { Button } from './components/ui/button'
+import { Helmet, HelmetProvider } from 'react-helmet-async'
+import { RouterProvider } from 'react-router-dom'
+
+import { router } from './routes'
 
 export function App() {
   return (
-    <div>
-      <Button>teste</Button>
-      <h1>teste</h1>
-    </div>
+    <HelmetProvider>
+      <Helmet titleTemplate="%s | Inoa Dashboard" />
+      <RouterProvider router={router} />
+    </HelmetProvider>
   )
 }
