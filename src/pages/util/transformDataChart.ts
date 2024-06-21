@@ -36,8 +36,9 @@ export function transformDataChart(
       for (let j = 0; j < queryResults.length; j++) {
         const stockName: string =
           queryResults?.[j]?.data?.results?.[0]?.symbol || ''
-        const price =
-          queryResults?.[j]?.data?.results?.[0].historicalDataPrice[i].close // Adjust as needed
+        const closeValue =
+          queryResults?.[j]?.data?.results?.[0]?.historicalDataPrice[i]?.close
+        const price = closeValue !== undefined ? closeValue : 0
         entry[stockName] = price
       }
 

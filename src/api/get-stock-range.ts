@@ -47,21 +47,5 @@ export interface StockRangeResponse {
 export async function getStockRange(ticker: string) {
   const response = await api.get<StockRangeResponse>(`/brapi/quote/${ticker}`)
 
-  if (response.data.results[0].historicalDataPrice.length < 61) {
-    response.data.results[0].historicalDataPrice = new Array(61)
-      .fill('')
-      .map((_, index) => {
-        return {
-          date: index,
-          open: 0,
-          high: 0,
-          low: 0,
-          close: 0,
-          volume: 0,
-          adjustedClose: 0,
-        }
-      })
-  }
-
   return response.data
 }

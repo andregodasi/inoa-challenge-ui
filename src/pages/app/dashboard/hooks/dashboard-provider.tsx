@@ -34,6 +34,7 @@ export interface DashboardContextType {
   stockDetails: Stock[] | undefined
   setStockDetails: Dispatch<SetStateAction<Stock[] | undefined>>
   stocks: Stock[] | undefined
+  isLoadingStocks: boolean
   isOpenStockHistory: boolean
   setIsOpenStockHistory: Dispatch<SetStateAction<boolean>>
   stockSelected: StockSelectedState | undefined
@@ -47,10 +48,23 @@ const DashboardProvider = ({ children }: DashboardProviderProps) => {
   const [isOpenStockHistory, setIsOpenStockHistory] = useState<boolean>(false)
   const [stockSelected, _setStockSelected] = useState<StockSelectedState>()
 
-  const { data: stocks } = useQuery({
+  const {
+    data: stocks,
+    isLoading: isLoadingStocks,
+    isError,
+    isLoadingError,
+    error,
+  } = useQuery({
     queryKey: ['getStocks'],
     queryFn: getStocks,
+    retry: 5,
   })
+
+  if (error || isError || isLoadingError) {
+    console.error('Error fetching stocks')
+    console.error(isError)
+    console.error(isLoadingError)
+  }
 
   useEffect(() => {
     if (stocks) {
@@ -78,6 +92,7 @@ const DashboardProvider = ({ children }: DashboardProviderProps) => {
     stockDetails,
     setStockDetails,
     stocks,
+    isLoadingStocks,
     isOpenStockHistory,
     setIsOpenStockHistory,
     stockSelected,

@@ -1,6 +1,9 @@
+import { Helmet } from 'react-helmet-async'
+
 export function About() {
   return (
     <main>
+      <Helmet title="Sobre" />
       <h1 className="text-3xl font-bold tracking-tight">Sobre o projeto</h1>
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">

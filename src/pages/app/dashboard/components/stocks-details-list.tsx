@@ -14,7 +14,7 @@ import {
 import { chartColors } from '../hooks/dashboard-provider'
 import { useDashboard } from '../hooks/use-dashboard'
 
-export function StockListDetails() {
+export function StocksDetailsList() {
   const { stockDetails, setIsOpenStockHistory, setStockSelected } =
     useDashboard()
 
