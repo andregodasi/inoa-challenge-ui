@@ -15,6 +15,7 @@ import { useDashboard } from '../hooks/use-dashboard'
 export function StocksMultiSelect() {
   const { stocksSelected, setStocksSelected, stocks, isLoadingStocks } =
     useDashboard()
+
   return (
     <div className="flex w-full flex-col items-center gap-3">
       <span className="text-2xl font-bold tracking-tight">

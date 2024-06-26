@@ -12,6 +12,7 @@ interface DataHistoryChart {
 export function transformDataHistoryChart(input: {
   'Monthly Time Series': Serie
 }): DataHistoryChart[] {
+  console.log('input', input)
   const timeSeries = input['Monthly Time Series']
   const result: DataHistoryChart[] = []
 
@@ -25,6 +26,6 @@ export function transformDataHistoryChart(input: {
       })
     }
   }
-
+  console.log('result', result.reverse())
   return result.reverse()
 }
