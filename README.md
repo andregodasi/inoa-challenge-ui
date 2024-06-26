@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Inoa" width="220px" src="https://private-user-images.githubusercontent.com/9595529/341651385-33de9896-a6a8-4b9a-baa6-ad9df9d99701.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg5NDgzMDMsIm5iZiI6MTcxODk0ODAwMywicGF0aCI6Ii85NTk1NTI5LzM0MTY1MTM4NS0zM2RlOTg5Ni1hNmE4LTRiOWEtYmFhNi1hZDlkZjlkOTk3MDEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MjFUMDUzMzIzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ODZiOWI5ODBhMTBiZWVmYmFjNWEzNWJiZWVjMDIyNzk5NTg2MWIxYjMyYWY1OTFiMjczMmMwMTc1MzE2ZmRjZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.-ThGYmkIxO3XhxnEV2L7zgWkpsuV47GBbVIFQ66tz3A" width="160px">
+  <img alt="Inoa" width="120" src="https://raw.githubusercontent.com/andregodasi/inoa-challenge-ui/main/public/inoa-logo-bottom.png">
 </p>
 
 <h1 align="center">Inoa Challenge</h1>
@@ -7,12 +7,13 @@
 <br>
 
 <h1 align="center">
-    <img alt="Challenge" src="https://private-user-images.githubusercontent.com/9595529/341651402-b6676073-749f-4fb6-85ea-a481ed1f63ab.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTg5NDgzMDMsIm5iZiI6MTcxODk0ODAwMywicGF0aCI6Ii85NTk1NTI5LzM0MTY1MTQwMi1iNjY3NjA3My03NDlmLTRmYjYtODVlYS1hNDgxZWQxZjYzYWIuZ2lmP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDYyMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA2MjFUMDUzMzIzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NDU0ZWVjNmU2ZTU4MjkyZTAzOGFjM2IyMjQzNzEyYzM0ZjM2MzQ5MGExZDkyNmRlMzljNjM0ZTgwNDUyMzk1NSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.54qhRMiKK159Xb1sCyuKyJan-wdRlZYEJ0pah7BFgC4" />
+    <img alt="Challenge" src="https://raw.githubusercontent.com/andregodasi/inoa-challenge-ui/main/public/inoa-demo.gif" />
 </h1>
 
 <br>
 
 ## 🎬 Live demo
+
 Acesse o projeto clicando [aqui](https://inoa-challenge-ui.vercel.app/).
 
 ## 💻 Projeto
@@ -45,7 +46,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Vercel](https://vercel.com/)
 
 ## 🚀 Como executar
-
 
 Clone o projeto e acesse a pasta do mesmo.
 
