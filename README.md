@@ -70,6 +70,12 @@ $ npm run dev
 $ npm run build
 ```
 
+## Running tests
+
+```bash
+$ npm run test
+```
+
 O app estará disponível em http://localhost:5173/.
 
 ## 📝 License
