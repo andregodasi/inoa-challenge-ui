@@ -76,6 +76,12 @@ $ npm run build
 $ npm run test
 ```
 
+## Running report coverage
+
+```bash
+$ npm run coverage
+```
+
 O app estará disponível em http://localhost:5173/.
 
 ## 📝 License
